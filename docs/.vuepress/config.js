@@ -2,12 +2,12 @@ module.exports = {
     evergreen : true,
     base : '/Launcher-Docs/',
     locales : {
-        '/zh/' : {
+        '/' : {
             lang : 'zh-CN',
             title : 'DreamCraft Launcher 文档',
             description : 'DreamCraft Launcher 应用程序的说明文档。'
         },
-        '/' : {
+        '/en/' : {
             lang : 'en-US',
             title: 'DreamCraft Launcher Docs',
             description: 'Docs of DreamCraft Launcher Application.',
@@ -20,10 +20,10 @@ module.exports = {
         editLinks : true,
         sidebarDepth :3,
         locales :{
-            '/zh/':{
+            '/':{
                 selectText : '选择语言',
                 label : '简体中文',
-                docsDir : 'docs/zh',
+                docsDir : 'docs',
                 editLinkText : '在 Github 上提交更改',
                 lastUpdated : '最后更新',
                 nav : [
@@ -41,7 +41,7 @@ module.exports = {
                     },
                 ]
             },
-            '/' : {
+            '/en/' : {
                 selectText : 'Language',
                 label : 'English',
                 docsDir : 'docs/en',
