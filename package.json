@@ -1,0 +1,23 @@
+{
+  "name": "cn.com.dreamcraft.launcher.docs",
+  "version": "1.0.0",
+  "description": "Docs of DreamCraft Launcher Application.",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DreamCraft-Tech/Launcher-Docs.git"
+  },
+  "author": "DreamCraft-Tech",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/DreamCraft-Tech/Launcher-Docs/issues"
+  },
+  "homepage": "https://github.com/DreamCraft-Tech/Launcher-Docs#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
